@@ -1,7 +1,7 @@
 # Initial Prompt
 
 ## Overview
-Create a blog called "Prayer Book Notes" that will be hosted at prayerbooknotes.page.  This blog will be used to publish quotes from (and commentary on) the liturgies and readings from daily Morning and Evening Prayer in the Episcopal Church's 1979 Book of Common Prayer.  
+Create a blog called "Prayer Book Notes" that will be hosted at dailyoffice.prayerbooknotes.page.  This blog will be used to publish quotes from (and commentary on) the liturgies and readings from daily Morning and Evening Prayer in the Episcopal Church's 1979 Book of Common Prayer.  
 
 ## Implementation
 This blog should be created using the Hugo Framework for generating static web sites. This will be a static site. The blog contents will be markdown files checked into GitHub, and transformed into static HTML by Hugo for hosting on GitHub Pages.
