@@ -1,0 +1,76 @@
+baseURL: 'https://prayerbooknotes.page/'
+languageCode: 'en-us'
+title: 'Prayer Book Notes'
+theme: 'PaperMod'
+
+# Pagination
+pagination:
+  pagerSize: 10
+
+# Enable features
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+# Minification
+minify:
+  disableXML: true
+  minifyOutput: true
+
+# Menu configuration
+menu:
+  main:
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 10
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 20
+
+# PaperMod specific params
+params:
+  env: production
+  title: "Prayer Book Notes"
+  description: "Reflections on the Episcopal Church's 1979 Book of Common Prayer Daily Office"
+  keywords: [Daily Office, Book of Common Prayer, Episcopal Church, Morning Prayer, Evening Prayer]
+  author: "Your Name"
+
+  # Theme mode
+  defaultTheme: light
+  disableThemeToggle: false
+
+  # Typography and features
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+
+  # Home page
+  homeInfoParams:
+    Title: "Prayer Book Notes"
+    Content: "Daily reflections on Morning and Evening Prayer from the 1979 Book of Common Prayer"
+
+  # Social icons
+  socialIcons:
+    - name: rss
+      url: "/index.xml"
+
+# Taxonomies
+taxonomies:
+  category: categories
+  tag: tags
+  series: series
+
+# Output formats
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
