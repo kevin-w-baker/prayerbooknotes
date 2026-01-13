@@ -3,12 +3,7 @@
 
 @font-face {
     font-family: 'Sabon';
-    src: url(../fonts/Sabon.woff2) format('woff2');
-}
-
-@font-face {
-    font-family: 'Sabon Italic';
-    src: url(../fonts/SabonItalic.woff2) format('woff2');
+    src: url(../../fonts/Sabon.woff2) format('woff2');
 }
 
 :root {
