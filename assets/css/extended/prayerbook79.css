@@ -23,7 +23,7 @@
 body {
     font-family: 'Sabon', 'Garamond', 'Georgia', serif !important;
     font-size: 20px;                     /* Larger for readability */
-    line-height: 1.7;                    /* Generous line spacing */
+    line-height: 1.5;                    /* Generous line spacing */
     color: var(--primary);
     background-color: var(--theme) !important;
 }
@@ -60,7 +60,7 @@ h4 {
     font-family: 'Sabon', 'Garamond', 'Georgia',  serif !important;
     font-size: 3.9rem !important; 
     font-weight:lighter !important;
-    letter-spacing: clamp(-.05em, -0.2vw, -.01em) !important;
+    letter-spacing: clamp(-1em, -0.3vw, -.03em) !important;
 }
 
 #theme-toggle {
