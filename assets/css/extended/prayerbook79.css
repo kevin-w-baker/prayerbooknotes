@@ -68,8 +68,9 @@ h4 {
 
 .logo a { 
     font-family: 'Sabon', 'Garamond', 'Georgia', serif !important;
-    font-size: 3.5rem !important; 
-    font-weight: normal !important;
+    font-size: 3.9rem !important; 
+    font-weight:lighter !important;
+    letter-spacing: clamp(-.05em, -0.2vw, -.01em) !important;
 }
 
 #theme-toggle {

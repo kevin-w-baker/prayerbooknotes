@@ -1,7 +1,7 @@
 baseURL: 'https://dailyoffice.prayerbooknotes.page/'
 languageCode: 'en-us'
 title: 'Prayer Book Notes'
-theme: 'PaperMod'
+theme: 'PrayerBook79'
 
 # Pagination
 pagination:
@@ -40,7 +40,7 @@ params:
 
   # Theme mode
   defaultTheme: light
-  disableThemeToggle: false
+  disableThemeToggle: true
 
   # Typography and features
   ShowReadingTime: false
@@ -54,8 +54,8 @@ params:
 
   # Home page
   homeInfoParams:
-    Title: "Prayer Book Notes"
-    Content: "Commentary and reflections on the Daily Office from the Book of Common Prayer."
+    Title: "The Daily Office"
+    Content: "Thoughts and fragments on the daily prayer of Christ's church"
 
   # Social icons
   socialIcons:

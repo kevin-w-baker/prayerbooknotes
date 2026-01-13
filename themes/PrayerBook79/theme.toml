@@ -1,9 +1,9 @@
 # theme.toml template for a Hugo theme
 # See https://github.com/gohugoio/hugoThemes#themetoml for an example
 
-name = "PaperMod"
+name = "PrayerBook79"
 license = "MIT"
-licenselink = "https://github.com/adityatelange/hugo-PaperMod/blob/master/LICENSE"
+licenselink = "https://github.com/kevin-w-baker/prayerbooknotes/blob/master/LICENSE"
 description = "A fast, clean, responsive Hugo theme"
 homepage = "https://adityatelange.github.io/hugo-PaperMod/"
 demosite = "https://adityatelange.github.io/hugo-PaperMod/"
@@ -12,7 +12,6 @@ tags = [
   "simple",
   "clean",
   "light",
-  "dark",
   "blog",
   "minimalist",
   "highlight.js",
@@ -41,12 +40,12 @@ features = [
 min_version = "0.146.0"
 
 [author]
-  name = "Aditya Telange"
-  homepage = "https://github.com/adityatelange/"
+  name = "Kevin Baker"
+  homepage = "https://github.com/kevin-w-baker/"
 
 # If porting an existing theme
 [original]
-  name = "Paper"
-  author = "nanxiaobei"
-  homepage = "https://github.com/nanxiaobei"
-  repo = "https://github.com/nanxiaobei/hugo-paper/"
+  name = "Hugo PaperMod"
+  author = "Aditya Telange"
+  homepage = "https://github.com/adityatelange"
+  repo = "https://github.com/adityatelange/hugo-paperMod/"
