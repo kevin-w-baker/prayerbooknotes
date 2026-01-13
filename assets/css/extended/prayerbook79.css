@@ -3,12 +3,12 @@
 
 @font-face {
     font-family: 'Sabon';
-    src: url(../../fonts/Sabon.woff2) format('woff2');
+    src: url(../fonts/Sabon.woff2) format('woff2');
 }
 
 @font-face {
     font-family: 'Sabon Italic';
-    src: url(../../fonts/SabonItalic.woff2) format('woff2');
+    src: url(../fonts/SabonItalic.woff2) format('woff2');
 }
 
 :root {
@@ -26,7 +26,7 @@
 
 /* Apply Sabon to all text */
 body {
-    font-family: 'Sabon', 'Garamond', serif !important;
+    font-family: 'Sabon', 'Garamond', 'Georgia', serif !important;
     font-size: 20px;                     /* Larger for readability */
     line-height: 1.7;                    /* Generous line spacing */
     color: var(--primary);
@@ -39,7 +39,7 @@ body {
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Sabon', 'Garamond', serif !important;
+    font-family: 'Sabon', 'Garamond', 'Georgia',  serif !important;
     font-weight: normal !important;
     line-height: 1.4;
 }
@@ -62,7 +62,7 @@ h4 {
 }
 
 .logo a { 
-    font-family: 'Sabon', 'Garamond', serif !important;
+    font-family: 'Sabon', 'Garamond', 'Georgia',  serif !important;
     font-size: 3.9rem !important; 
     font-weight:lighter !important;
     letter-spacing: clamp(-.05em, -0.2vw, -.01em) !important;
@@ -103,12 +103,12 @@ blockquote {
 
 /* Navigation and UI elements stay clean */
 .nav a {
-    font-family: 'Sabon', 'Garamond', serif !important;
+    font-family: 'Sabon', 'Garamond', 'Georgia',  serif !important;
 }
 
 /* Footer */
 footer {
-    font-family: 'Sabon', 'Garamond', serif, ! important;
+    font-family: 'Sabon', 'Garamond', 'Georgia',  serif, ! important;
     font-size: 0.9rem;
     color: var(--secondary);
 }
