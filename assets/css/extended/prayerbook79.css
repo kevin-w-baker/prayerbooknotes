@@ -11,16 +11,6 @@
     src: url(../../fonts/SabonItalic.woff2) format('woff2');
 }
 
-@font-face {
-    font-family: 'Sabon Bold';
-    src: url(../../fonts/SabonBold.woff2) format('woff2');
-}
-
-@font-face {
-    font-family: 'Sabon Bold Italic';
-    src: url(../../fonts/SabonBoldItalic.woff2) format('woff2');
-}
-
 :root {
     /* Override PaperMod variables with book-like colors */
     --theme: #faf8f5;                    /* Cream paper background */
