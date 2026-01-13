@@ -66,9 +66,9 @@ h4 {
     font-style: italic;
 }
 
-.logo, a.logotitle { 
+.logo a { 
     font-family: 'Sabon', 'Garamond', 'Georgia', serif !important;
-    font-size: 2.5rem;
+    font-size: 2.5rem; 
     font-weight: normal !important;
 }
 
