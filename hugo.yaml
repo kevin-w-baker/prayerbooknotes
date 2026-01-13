@@ -34,16 +34,16 @@ menu:
 params:
   env: production
   title: "Prayer Book Notes"
-  description: "Reflections on the Episcopal Church's 1979 Book of Common Prayer Daily Office"
+  description: "Notes in the margins of the prayer book."
   keywords: [Daily Office, Book of Common Prayer, Episcopal Church, Morning Prayer, Evening Prayer]
-  author: "Your Name"
+  author: "Kevin Baker"
 
   # Theme mode
   defaultTheme: light
   disableThemeToggle: false
 
   # Typography and features
-  ShowReadingTime: true
+  ShowReadingTime: false
   ShowShareButtons: false
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
@@ -55,7 +55,7 @@ params:
   # Home page
   homeInfoParams:
     Title: "Prayer Book Notes"
-    Content: "Daily reflections on Morning and Evening Prayer from the 1979 Book of Common Prayer"
+    Content: "Commentary and reflections on the Daily Office from the Book of Common Prayer."
 
   # Social icons
   socialIcons:
