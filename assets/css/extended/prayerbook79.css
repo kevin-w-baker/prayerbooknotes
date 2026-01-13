@@ -68,8 +68,12 @@ h4 {
 
 .logo a { 
     font-family: 'Sabon', 'Garamond', 'Georgia', serif !important;
-    font-size: 2.5rem; 
+    font-size: 3.5rem !important; 
     font-weight: normal !important;
+}
+
+#theme-toggle {
+    visibility: hidden !important;
 }
 
 /* Article/Post styling for book-like appearance */
